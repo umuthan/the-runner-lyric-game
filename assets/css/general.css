@@ -1,0 +1,95 @@
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#environment {
+  height: 80vh;
+  width: 100vw;
+}
+
+#base {
+  height: 20vh;
+  width: 100vw;
+}
+
+#elements {
+
+}
+
+#yannis {
+  position: absolute;
+  height: 40vh;
+  width: auto;
+  bottom: 8vh;
+  left: 5vh;
+  z-index:5;
+}
+
+#yannis.jump {
+  transition-property: bottom;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  bottom: 20vh;
+}
+
+#yannis.jump {
+  transition-property: bottom;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  bottom: 0;
+}
+
+#lyricContent {
+  display: table;
+  position: absolute;
+  width: 100vw;
+  height: 30vh;
+  z-index:2;
+}
+
+h1#lyric {
+  word-wrap: break-word;
+  font-size: 3rem;
+  display: table-cell;
+  vertical-align: middle;
+  text-align:center;
+  line-height: 4rem;
+}
+
+.font1 {
+  font-family: 'Tinos', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font2 {
+  font-family: 'Tinos', serif;
+  font-weight: 400;
+  font-style:italic;
+}
+
+.font3 {
+  font-family: 'Tinos', serif;
+  font-weight: 700;
+  font-style:italic;
+}
+
+.font4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:700;
+}
+
+#pureElements {
+  display: none;
+}
+
+#player{
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  position: absolute;
+}
